@@ -1,0 +1,112 @@
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Hero section styles */
+.hero {
+    background-image: url('https://source.unsplash.com/1600x900/?swimming');
+    background-size: cover;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-content {
+    margin-top: 50px;
+}
+
+.hero-content h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.tagline {
+    font-size: 1.5em;
+}
+
+/* Navigation styles */
+.navbar {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 2em;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav-menu li:last-child {
+    margin-right: 0;
+}
+
+.nav-menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.nav-menu li a:hover {
+    text-decoration: underline;
+}
+
+/* Other section styles */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.about-section,
+.events-section,
+.contact-section {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.about-section h2,
+.events-section h2,
+.contact-section h2 {
+    margin-bottom: 20px;
+}
+
+.about-section p,
+.events-section p,
+.contact-section p {
+    font-size: 1.2em;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
