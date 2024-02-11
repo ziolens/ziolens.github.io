@@ -4,26 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SportCraft - Swimming Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <header>
-        <img class="logo" src="logo.png" alt="SportCraft Logo">
-        <h1>SportCraft</h1>
-        <p>Swimming Website</p>
+<body class="bg-gray-100">
+    <header class="bg-blue-500 text-white p-4">
+        <div class="flex items-center justify-center">
+            <img class="logo h-12 mr-2" src="logo.png" alt="SportCraft Logo">
+            <h1 class="text-2xl font-bold">SportCraft</h1>
+        </div>
+        <p class="text-sm">Swimming Website</p>
     </header>
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Events</a>
-        <a href="#">Contact</a>
+    <nav class="bg-gray-800 text-white p-4">
+        <div class="flex justify-center space-x-4">
+            <a href="#" class="hover:underline">Home</a>
+            <a href="#" class="hover:underline">About</a>
+            <a href="#" class="hover:underline">Events</a>
+            <a href="#" class="hover:underline">Contact</a>
+        </div>
     </nav>
-    <div class="container">
-        <h2>Welcome to SportCraft</h2>
-        <p>This is a website dedicated to all things swimming. Stay tuned for updates and events!</p>
+    <div class="container mx-auto px-4 py-8">
+        <h2 class="text-3xl font-bold mb-4">Welcome to SportCraft</h2>
+        <p class="text-lg">This is a website dedicated to all things swimming. Stay tuned for updates and events!</p>
     </div>
-    <footer>
-        <p>&copy; 2024 SportCraft. All rights reserved.</p>
+    <footer class="bg-gray-800 text-white p-4">
+        <p class="text-center">&copy; 2024 SportCraft. All rights reserved.</p>
     </footer>
 </body>
 </html>
